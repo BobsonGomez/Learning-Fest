@@ -1,0 +1,18 @@
+p{
+    color: black;
+    font-weight: bolder;
+
+}
+.text{
+
+    background-color: grey;
+    border: solid;
+    border-width: 10px;
+    border-color:black;
+    margin-left: 3cm;
+    margin-right: 20cm;
+    padding: 3%;
+    font-weight: bold;
+    text-align: center;
+
+}
