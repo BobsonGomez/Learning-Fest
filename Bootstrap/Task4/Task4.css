@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 35%;
+    border: 1px solid black;
+    flex-direction:column;
+    border-radius: 5px;
+  }
+  .uploadsmthn{
+    font-size: smaller;
+  }
+  #submit{
+    align-items: center;
+    justify-content: center;
+  }

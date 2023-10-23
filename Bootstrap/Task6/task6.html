@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task6</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="./Build.MyWeb.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="task6.css">
+</head>
+<body>
+    <section id="home-section" >
+        <div class="row" >
+          <nav class="navbar navbar-expand-lg p-3 " style="background-color: rgb(184, 184, 184);">
+            <div class="container-fluid col-md-9 col-9 my-auto">
+              <a class="navbar-brand" href="#">
+                <img src="Build.MyWeb.png" alt="Bootstrap" width="140px" height="70px">
+              </a>
+            </div>      
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse col-3 col-md-12" id="navbarNav" style="text-align: right;">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#register-section">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#mentors-section">Mentors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Participates</a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image2.png" class="d-block w-100" alt="carousel1">
+            </div>
+            <div class="carousel-item">
+              <img src="image1.png" class="d-block w-100" alt="carousel2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+        <section id="register-section">
+        <div class="joinbutton">
+          <h1>Join Us!</h1>
+          <h4>Pygrammer is a community of python enthusiasts with similar ideologies and interests!!</h4>
+          <a href="https://t.me/pygrammers_official">
+            <button class="btn btn-primary" class="text-white">Telegram</button>
+          </a>
+        </div>
+        <br><br>
+        <div class="container">
+          <br>
+          <div class="entry col-12 col-sm-6">
+          <h2>Form:</h2>
+          <form style="width: 80%;">
+            <div class="mb-3" style="text-align: center;">
+              <label for="formGroupExampleInput" class="form-label">Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+            </div>
+            <div class="mb-3" style="text-align: center;">
+              <label for="formGroupExampleInput2" class="form-label">Mobile Number</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+            </div>
+            <div class="mb-3" style="text-align: center;">
+              <label for="formGroupExampleInput2" class="form-label">Email Address</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+            </div>
+            <div class="mb-3" style="text-align: center;">
+              <label for="formGroupExampleInput2" class="form-label">Company/Institution Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+            </div>
+            <br>
+            <p class="uploading">Upload a short video or image of a hand written sheet showing your interest to join build.myweb</p>
+            <div class="input-group mb-3">
+              <input type="file" class="form-control" id="inputGroupFile01">
+            </div>  
+            <select class="form-select" aria-label="Default select example">
+            <option selected>Have you attended any events from pygrammers before?!</option>
+            <option value="1">yes</option>
+            <option value="2">No</option>
+            </select>
+            <br>
+            <div class="d-grid col-3 mx-auto">
+              <button type="button" class="btn btn-secondary">Submit form</button>
+            </div>
+            <br>
+          </form>
+        </div>
+        </div>
+        </section>
+        <br>
+        <section id="mentors-section">
+        <div class="monkeys">
+          <h2>Mentors</h2>
+          <br>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="monke.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">In The Loving Memory Of Harambe</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="monke.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">In The Loving Memory Of Harambe</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="monke.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">In The Loving Memory Of Harambe</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="monke.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">In The Loving Memory Of Harambe</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="monke.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">In The Loving Memory Of Harambe</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="monke.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">In The Loving Memory Of Harambe</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <footer class="row bg-body-secondary">
+          <div class="col-12">
+            <img class="footer" src="icons.png" alt="footer icons">
+          </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
